@@ -29,8 +29,4 @@ abstract contract Ownable {
         _owner = newOwner;
         emit OwnershipTransferred(_oldOwner, _owner);
     }
-
-    /* create a function acceptOwnership where new owner has to accept ownership
-        after transfer ownership.
-    **/
 }
